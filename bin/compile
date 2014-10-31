@@ -34,6 +34,7 @@ urlfor() {
         ;;
     esac
 }
+#https://storage.googleapis.com/golang/go1.3.3.linux-amd64.tar.gz
 
 mkdir -p "$1" "$2"
 build=$(cd "$1/" && pwd)
